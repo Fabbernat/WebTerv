@@ -1,0 +1,21 @@
+.tortenet {
+  z-index: 99;
+  background-color: #cdba96;
+  background-repeat: repeat;
+  font-family: 'Shadows Into Light', cursive;;
+  font-size: 1.2rem;
+  padding: 20px;
+  border: 3px solid #e5c493;
+  border-radius: 10px;
+}
+
+.kepek {
+  display: flex;
+  align-items: stretch;
+}
+
+.kepek img {
+  width: 33%; /* Set a fixed height */
+  object-fit: cover; /* Crop the images to fit the height */
+  margin-right: 10px; /* Add some margin between the images */
+}

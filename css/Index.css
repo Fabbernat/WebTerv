@@ -1,0 +1,95 @@
+@font-face {
+  font-family: special-elite;
+  src: url('../fonts/special-elite.regular.ttf');
+}
+
+/* Itt egy írógép szerű fontot adok hozzá*/
+
+body {
+  background-image: url("../img/hatterkep2.jpg");
+  /* Háttérkép parallaxis effekt, nem tudom hogy van magyarul xdd*/
+  min-height: 1200px;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.header {
+  padding: 22px; /* padding, nem tudom hogy hívják magyarul */
+  text-align: center; /* középreigazít */
+  background: #f3e5ab; /* gyönyörűséges elefántcsont szín háttér */
+  color: #5e4a32; /* text szövege */
+  font-family: special-elite, sans-serif; /*menő irógép font lsd: css */
+  font-size: 88px;
+  font-weight: 900;
+}
+
+.header2 {
+  padding: 22px; /* padding, nem tudom hogy hívják magyarul */
+  text-align: center; /* középreigazít */
+  background: #f3e5ab; /* gyönyörűséges elefántcsont szín háttér */
+  color: #5e4a32; /* text szövege */
+  font-family: special-elite, sans-serif; /*menő irógép font lsd: css */
+  font-size: 32px;
+  font-weight: 400;
+}
+
+
+/*Innentől van a navigációs menű css-e: */
+.topnav {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #cdba96;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #50545C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #d0f0c0;
+  color: #9966cc;
+}
+
+/* Add a color to the active/current link */
+.topnav a:active {
+  background-color: #fff8c9;
+  color: #483c32;
+}
+
+.alcim {
+  position: relative;
+  background-color: #fff8c9;
+  text-align: center;
+  font-size: 18px;
+}
+
+.kepAVegen {
+  justify-content: center;
+  align-items: center;
+}
+
+.alsoSor {
+  background-color: #f3e5ab;
+  overflow: hidden;
+}
+
+.hajocska{
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+  height: 100vh; /* set the height to the full viewport height */
+}

@@ -1,0 +1,12 @@
+section{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    background-color: #abcdef;
+}
+
+.velemeny{
+    background-color: #fedcba; padding: 10px; margin: 10px;
+}

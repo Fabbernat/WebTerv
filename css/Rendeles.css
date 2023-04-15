@@ -1,0 +1,22 @@
+legend {
+  padding-top: 30px;
+  margin: 10px;
+  font-size: xxx-large;
+  text-align: center;
+}
+
+.kep {
+  display: block;
+  margin: 0 auto;
+  clear: both;
+}
+.Ételek {
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: xxx-large;
+}
+
+fieldset{
+  background-color:#f3e5ab;
+  justify-content: stretch;
+}

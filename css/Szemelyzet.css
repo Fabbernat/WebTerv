@@ -1,0 +1,48 @@
+.szoveg {
+    padding: 22px; /* padding, nem tudom hogy hívják magyarul */
+    text-align: left; /* középre igazít */
+    background: #f3e5ab; /* gyönyörűséges elefántcsont szín háttér */
+    color: #5e4a32; /* text szövege */
+    font-family: Helvetica, sans-serif; /*menő irógép font lsd: css */
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.row {
+    display: flex;
+    background: #f3e5ab; /* gyönyörűséges elefántcsont szín háttér */
+    color: #5e4a32; /* text szövege */
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    text-align: center; /* középre igazít */
+    background: #f3e5ab; /* gyönyörűséges elefántcsont szín háttér */
+    color: #5e4a32; /* text szövege */
+    font-family: "Times New Roman", sans-serif; /*menő írógép font lsd: css */
+    font-size: 32px;
+    font-weight: 900;
+    flex: 50%;
+    padding: 10px;
+    height: 800px; /* Should be removed. Only for demonstration */
+}
+
+.centerimg {
+    /*position: center;*/
+    display: inline-block;
+    margin: 10px;
+    width: 50%;
+}
+
+.magyarazat {
+    margin: 10px;
+    padding: 10px;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    background: #cdba96;
+    text-align: justify;
+    font-family: "helvetica", sans-serif; /*menő irógép font lsd: css */
+    font-size: 14px;
+    /*height: available;*/
+}
